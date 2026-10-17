@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explanation-fragility"
+version = "1.0.0"
+description = "Consequence-based evaluation of explanation stability measures, including the CIES index"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+authors = [
+  { name = "Alin-Gabriel Văduva" },
+  { name = "Simona-Vasilica Oprea" },
+  { name = "Adela Bâra" },
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
